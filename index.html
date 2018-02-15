@@ -1,15 +1,290 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Halaman Naila</title>
-</head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+body {background-image: url( Serendipity.jpg ) }
+</style>
+
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-<h1>Tentang Saya</h1>
-<p>Hai aku Naila Rafa, lahir di Jakarta, 30 April 2001. Aku anak pertama dari dua saudara. Ini sekilas tentang ku</p>
-<h2>Hobby</h2>
-<p>Aku punya hobby menonton drama korea</p>
-<img src="Img/Hwarang5.jpg" alt="Gambar Hwarang5">
-<h2>Pendidikan</h2>
-<p>Aku bersekolah di <strong>Smakbo</strong> jurusan <em>Chemical Analyst</em></p>
+
+<div class="w3-container w3-pink">
+  
+
+
+
+ 
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+   <center> <h1 class="w3-xxxlarge"><b>NAILA's PROFILE</b></h1>
+    <h6>Welcome to My Profile <span class="w3-tag">Naila's World</span></h6> </center>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+   <center> <img class="w3-image" src="img/IMG-20180208-WA0067.jpg"  width="700" height="400"> </center>
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Naila's</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>WEB PROFILE</b></h1>
+      
+    </div> </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>ABOUT ME</h3>
+         <center> <img class="w3-image" src="img/NailaProfile.jpg"  width="250" height="50"> </center>
+        </div>
+
+        <div class="w3-justify">
+          <P>Well hello! Welcome to my page</P>
+<p>Hai Nama ku Naila Rafa Cendraningsih, biasa dipanggil Naila. Aku lahir di Jakarta, 30 April 2001. Aku bersekolah di <strong>SMK-SMAK Bogor</strong>, saat ini kelas 11. Aku anak pertama dari 2 bersaudara, aku punya adik laki-laki berumur 13 tahun yang bersekolah di <strong>SICC</strong> <em>(Sekolah Islam Cendekia Cianjur)</em> Ingin tahu lebih banyak? Kalian boleh lihat di salah satu akun sosial ku.</p>
+          
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>MY HOBBIES</h3>
+          
+        </div>
+
+        <div class="w3-justify">
+          <p>1. 'fangirling'</p>
+  <p>Aku memulai hobi ini saat kelas 10. Aku adalah seorang ARMY. <em>All about</em> BTS selalu aku ikuti.</p>
+<p>2. Nonton Drakor</p>
+  <p>Hobi ini juga aku mulai saat kelas 10. Awalnya aku ga suka, tapi makin kesini aku terpesona sama <em>oppa-oppa</em> di drama.</p>
+<p>3. Main Basket</p>
+  <p>Saat kelas 7 aku hanya mengikuti basket sebagai <em>ekstrakulikuler</em> daaann lama kelamaan aku menjadikan basket sebagai hobi ku.</p>
+          
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+                <br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>ALL ABOUT MY FAVORITES</h3>
+          
+        </div>
+
+        <div class="w3-justify">
+          <p>1. Warna</p>
+  <p> Aku sangat suka warna pink. Awalnya aku sangat benci dengan warna pink. Tetapi setelah dipikir-pikir <strong>pink is so cute</strong>. Warna pink itu bisa ngebuat aku ngerasa tenang, warna pink juga enak dipandang. </p>
+<p>2. Makanan</p>
+  <p>Aku bukan tipe orang yag pilih-pilih makanan sih. Tapi aku suka makanan yang tidak pedas. Jika disuruh pilih antara mi ayam dan bakso, aku lebih memilih mi ayam. Soalnya mi ayam bisa ngebuat aku lebih kenyang dibanding bakso hehe... Bukan, bukan karena mi ayam bisa ngebuat aku lebih kenyang, tapi aku memang suka dengan mi ayam. Entahlah, ada sesuatu di dalam mi ayam yang ngebuat aku ga bosen buat makannya. </p>
+<p>3. <em>Chocolate</em> </p>
+  <p>Nah ini nih, salah satu makanan yang bisa naikin <em>mood</em> aku. Pasti kalian tau dong, kalo coklat mengandung <strong><em>dopamine</em></strong> yang bisa ngebuat mood kita jadi lebih baik. Selain itu coklat juga bermacam-macam jenisnya, dari beberapa jenis coklat, aku paling suka dengan <em>dark chocolate</em> karena rasanya yang tidak terlalu manis. </p>
+<p>4 Kim Taehyung (V)</p>
+  <p>Di bagian <em>'my hobbies'</em>, aku menyinggung jika aku adalah seorang <em>ARMY</em>, yap! <em>ARMY</em> adalah sebutan untuk <em>fans</em> <strong>BTS</strong>. Salah satu <em>bias</em> ku adalah <strong>Kim Taehyung</strong> atau yang memiliki nama panggung <strong>V</strong>. Menurut aku, Taehyung punya 2 sisi yang berbeda, dia akan terlihat <em>sexy</em> saat menjadi V dan akan terlihat <em>cute</em> saat menjadi Kim Taehyung atau dia bisa terlihat <em>cute</em> dan <em>sexy</em> dalam waktu bersamaan. </p>
+
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>That was a great runway show! Thanks for everything.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_hood.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        
+        <div class="w3-container w3-black">
+          <h4>Quote in My Life</h4>
+          <p><div class="w3-panel w3-card-4 w3-light-grey" style="width:50%">
+    <p class=" w3-large w3-serif">
+    <i class="fa fa-quote-right w3-xxlarge w3-text-red"></i><br>
+    IF YOU BE DILLIGENT, YOU CAN BE SUCCESS</p> </div>
+        </div>
+      </div>
+      <hr>
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>EDUCATIONAL BACKGROUND</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16"> 
+            <span class="w3-large">1. SDN Batu Ampar 01 Pagi (2009-2011)</span>
+            <br>         
+          </li>
+          <li class="w3-padding-16">
+            <span class="w3-large">2. SDN 1 Cigombong (2011-2014)</span>
+            <br>       
+          </li>
+          <li class="w3-padding-16">      
+            <span class="w3-large">3. SMPN 1 Cigombong (2014-2016)</span>
+            <br>       
+          </li>
+          <li class="w3-padding-16">
+            <span class="w3-large">4. SMK-SMAK Bogor (2016-sekarang)</span>
+            <br>  
+          </li>
+        </ul>
+      </div>
+      <hr>
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>KIM TAEHYUNG AND I</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/WithTae.jpg"  width="350" height="450"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>PLAYING BASKETBALL</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p><img src="img/BasketHobby.gif"  width="350" height="450"></p>
+        </div>
+      </div>
+      <hr>
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <p>@nailarafa_</p>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <p>@naiira_v</p>
+        </div>
+      </div>
+      <hr>
+        </div>
+      </div>
+    <!-- END About/Intro Menu -->
+    </div>
+  <!-- END GRID -->
+  </div>
+<!-- END w3-content -->
+</div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<center> <img src="img/BTS.jpg" width="" height="250"> </center>
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+</footer>
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function likeFunction(x) {
+    x.style.fontWeight = "bold";
+    x.innerHTML = "✓ Liked";
+}
+</script>
+
 </body>
 </html>
